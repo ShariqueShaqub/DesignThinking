@@ -1,0 +1,22 @@
+Screen1 As screen:
+
+    Image1 As image:
+        Height: =333
+        Image: =download
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        Y: =402
+        ZIndex: =1
+
+    Timer1 As timer:
+        AutoPause: =false
+        AutoStart: =true
+        Duration: =6000
+        Height: =70
+        OnTimerEnd: =Navigate(Screen2,ScreenTransition.Fade)
+        Visible: =false
+        Width: =280
+        X: =96
+        Y: =226
+        ZIndex: =2
+
